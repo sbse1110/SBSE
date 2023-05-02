@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SBSE BOARD</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman;
+}
+
+/* Style the header */
+header {
+  background-color:turquoise;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: lightblue;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: turquoise;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>SPARKLE BOARD OF SECONDARY EDUCATION, RAJASTHAN</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Ravindra%20jangu/Documents/Index.htm">Home</a></li> <br><br>
+      <li><a href="file:///C:/Users/Ravindra%20jangu/Documents/Index_sbse-ee-2023-xi.htm">SBSE-EE-2023-XI</a></li> <br><br>
+      <li><a href="file:///C:/Users/Ravindra%20jangu/Documents/Index_overview.htm">OVERVIEW</a></li> <br><br>
+    </ul>
+  </nav>
+
+  <article>
+ 
+    <h1 style="text-align:center">SBSE-EE-2023-XI</h1>
+    <p style="font-family:kokila;font-size:2vw">यह परीक्षा कक्षा 11 के रसायन विज्ञान के विद्यार्थियों के लिए होने वाली है। परीक्षा का पाठ्यक्रम एन.सी.ई.आर.टी. द्वारा संशोधित रसायन विज्ञान का पाठ्यक्रम ही रहेगा। परीक्षा 300 अंकों की 75 प्रश्नों के साथ 3 घण्टे की रहने वाली है। 
+
+    <a href="https://drive.google.com/file/d/1Lu57y-KuxHrtAUSoRAn6QiSSS0KrFHW9/view">Corrigendum Link for: SBSEE-2023  </a>
+   </article>
+ 
+</section>
+
+<footer>
+<p style="font-family:Kokila; font-size:2vw">Updating<br>
+<div id="current_date"></p>
+<script>
+document.getElementById("current_date").innerHTML = Date();
+</script>
+<p style="font-family:Kokila; font-size:2vw">(c) SPARKLE BOARD OF SECONDARY EDUCATION RAJ.@2026</p>
+</footer>
+
+</body>
+</html>
